@@ -3,7 +3,7 @@ import './App.css';
 
 function App2() {
     const initialTime = 25 * 60; // 25 minutes in seconds
-    const [timeLeft, setTimeLeft] = useState(initialTime);
+    const [timeLeft, setTimeLeft] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
 
     const [inputMinutes, setInputMinutes] = useState('');
@@ -49,7 +49,7 @@ function App2() {
 
     return (
         <div className="App">
-            <h1>Pomodoro Timer ⏳</h1>
+            <h1>React-based Timer ⏳</h1>
             <div id="input-group">
                 <div id='inputboxes'>
                     <input
@@ -77,7 +77,7 @@ function App2() {
                 <button onClick={handleStartPause}>
                     {isRunning ? 'Pause' : 'Start'}
                 </button>
-                <button onClick={handleReset}>Reset</button>
+                <button onClick={handleReset}>25 Min <br />Pomodoro</button>
             </div>
         </div>
     );
