@@ -1,0 +1,79 @@
+.App {
+  background-color: rgb(252, 179, 179);
+  text-align: center;
+  padding: 10px 20px 45px 20px;
+  border-radius: 50px;
+  border: 5px outset rgb(252, 115, 115);
+  transition: ease 5s;
+  display: inline-block;
+  min-width: max-content;
+}
+
+
+.App:hover{
+  transition: all 1s;
+  transform: scale(1.02);
+}
+
+body {
+  background-color: rgb(253, 133, 133);
+  height: 100vh; /* full viewport height */
+  margin: 0; /* remove default margin */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+
+button{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(255, 132, 132);
+  border-color: rgb(248, 114, 114);
+  border-width: 0.2rem;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-style: outset;
+}
+
+button:hover{
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+  background-color: rgb(245, 84, 84);
+  border-color: rgb(250, 88, 88);
+  border-radius: 15px;
+  color: white;
+}
+
+#timeleft{
+  background-color: rgb(255, 251, 251);
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 10px;
+  border-radius: 90px;
+}
+
+#input-group {
+  margin-bottom: 20px;
+}
+
+#inputboxes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+#setbutton {
+  display: flex;
+  justify-content: center;
+}
+
+
+input{
+  width: 10%;
+  padding: 5px;
+  text-align: center;
+  border: solid white;
+  border-radius: 10px;
+}
