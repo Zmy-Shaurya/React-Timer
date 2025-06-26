@@ -1,12 +1,74 @@
-# React + Vite
+# ⏳ Pomodoro Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, elegant **Timer app** built using **React + Vite**.  
+Perfect for focused work sessions with customizable input and a satisfying **ding** when time's up! 🔔
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![Screenshot](./screenshot.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Demo
+
+🌐 [Click here to try it now](https://zmy-shaurya.github.io/React-Timer/)  
+*(Hosted via GitHub Pages)*
+
+---
+
+## 🎯 Features
+
+- 🕒 Start/Pause/Reset Timer
+- 🧮 Input custom minutes and seconds
+- ⌛ Button for 25-minute Pomodoro preset
+- 🔔 Sound notification when timer ends
+- 🎨 Clean animated UI with CSS styling
+- ⚡ Deployed using Vite & GitHub Pages
+
+---
+
+## 🧠 Tech Stack
+
+- React (Functional Components + Hooks)
+- Vite (Fast frontend tooling)
+- GitHub Pages (Deployment)
+- CSS3 (For styling)
+
+---
+
+## 🛠️ Local Setup
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/Zmy-Shaurya/React-Timer.git
+
+# 2. Go into the folder
+cd React-Timer
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+```
+---
+
+## 🙋‍♂️ About
+
+This project was created as part of my project-based learning journey in React.
+It helped me understand key concepts like:
+
+- useState and useEffect
+- JSX and component structure
+- Playing an mp3 file when needed
+- GitHub Pages deployment via gh-pages
+---
+
+## 📢Licence
+
+This project is free to use and open source.
+
+Built by [@Zmy-Shaurya](github.com/zmy-shaurya)
+---
